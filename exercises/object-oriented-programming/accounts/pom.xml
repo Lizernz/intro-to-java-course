@@ -20,11 +20,7 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
           <configuration>
-            <testExcludes>
-              <!-- <testExclude>**/BankTest.java</testExclude> -->
-              <!-- <testExclude>**/CurrentAccountTest.java</testExclude> -->
-              <!-- <testExclude>**/SavingsAccountTest.java</testExclude> -->
-            </testExcludes>
+            
           </configuration>
         </plugin>
       </plugins>

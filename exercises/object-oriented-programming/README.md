@@ -255,7 +255,7 @@ Your implementation is correct when all tests pass.
 If you have extra time in the session, or wish to experiment further, create a **program** in the same package that computes the amount of paint needed to paint various shapes, e.g.:
 - a rectangular deck of length `35` and width `20` 
 - a ball of radius `15`
-- a tank of radius `10` and height `30`.
+- a tank of radius `10` and height `30`
 
 Consider the following ideas:
 - print the amount of paint needed for each item
