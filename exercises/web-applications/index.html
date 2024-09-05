@@ -10,11 +10,11 @@
 </head>
 <style>
     .container {
-        text-align: center;
+        
     }
 form {
-
-
+max-width: 100px;
+margin: 30px;
 }
 
 p {
@@ -24,20 +24,26 @@ span {
     color: red;
     opacity:0.6;
     }
+   
 </style>
 <body>
     <div class="container">
-        <p>Email</p>
+        
  <form>
+    <p>Email</p>
     <input type="email" id="email" name="email" required/>
     <br />
+    <br />
     <p>password</p>
-    <input type="password" id="password" name="password" />
+    <input type="password" id="password" name="password" value="password" required/>
+    <br />
+    <input type="checkbox" id="rememberMe">
+    <label for="rememberMe">Remember me</label>
+    <span>Forgotten password</span>
  </form>   
- <div class="">
- <button>Remember Me</button> <span>Forgot Password?</span>
+ 
  <br />
- <div class="btn btn-primary">Sign In</div>
+ <div class="btn btn-primary m-3 ">Sign In</div>
  </div>
 </body>
 </html>
